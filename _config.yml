@@ -1,0 +1,12 @@
+name: Anika Tabassum
+markdown: redcarpet
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: rouge # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+analytics :
+  provider : getclicky
+  getclicky :
+    site_id : 100788551
+category-list: [productivity]
+pages: [books]

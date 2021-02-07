@@ -1,0 +1,22 @@
+---
+layout: default
+title: Book Notes
+---
+
+<section class="post-intro">
+  <h1>Book Notes</h1>
+</section>
+<section>
+  {% for cat in site.category-list %}
+  <h2>{{ cat || capitalize }}</h2>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.books == true %}
+        {% for pc in page.categories %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}  <!-- page-category -->
+      {% endif %}   <!-- resource-p -->
+    {% endfor %}  <!-- page -->
+  </ul>
+  {% endfor %}  <!-- cat -->
+</section>
