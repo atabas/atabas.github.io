@@ -65,13 +65,6 @@ a:visited {
   border-bottom: 20px solid;
 }
 
-.work li{
-  list-style-type: none;
-}
-
-.project {
-    text-align: left;
-}
 
 /*****************************************************************************/
 /*
@@ -127,22 +120,7 @@ a:visited {
   padding: 30px;
   height: 100vh;
   position: relative;
-  /*background-color: #dde8f1;*/
   border-top: 20px solid;
-  /*color: #fff;*/
-}
-
-.site-intro::after {
-  /*content: "";
-  background: url("../images/home_bg.JPG");
-  background-size: cover;
-  //opacity: 0.9;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;  */ 
 }
 
 .site-intro__image{
