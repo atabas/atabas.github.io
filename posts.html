@@ -8,10 +8,10 @@ title: Writing
 </section>
 
 
-{% assign sorted_cats = site.categories | sort %}
+{% assign unsorted_cats = site.categories %}
 <div class="container">
   <ul class="posts">
-  {% for category in sorted_cats %}
+  {% for category in unsorted_cats %}
 
   {% assign sorted_posts = category[1] | reversed %}
   <h2 id="{{category[0] | uri_escape | downcase }}">{{ category[0] | capitalize }}</H2>
