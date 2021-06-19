@@ -14,7 +14,7 @@ We've all heard this. If you don't try, you don't succeed. I was unaware of who 
 
 Here are my top takeaways from his class:
 
-- Find your idols and start following them; it is important to learn about the history of how hard they worked to get there. The lesson here is that you excel at something because you are committed to getting" better at it everyday.
+- Find your idols and start following them; it is important to learn about the history of how hard they worked to get there. The lesson here is that you excel at something because you are committed to getting better at it everyday.
 
 - "Play above your level": always push your limits and "strive to best your best".
 
@@ -22,11 +22,11 @@ Here are my top takeaways from his class:
 
 - The only rule Wayne Gretzky's dad insisted upon was that if you start the season, you have to finish the season; we can generalize this to mean that we must finish any important project we embark upon
 
-- He realized that he needed to prepare for every single game in the same way, no matter how big or small, because "People will come to watch you play". Similarly, everything we do is worth doing well.
+- He realized that he needed to prepare for every single game in the same way, no matter how big or small, because, as his dad mentioned, "people will come to watch you play". Similarly, everything we do is worth doing well.
 
 - Everyone can and should learn everyday. Everything is teachable. You can make your goals attainable one step at a time. You can be better tomorrow.
  
-- Fear is a necessary (and good) factor for success.
+- Fear is a necessary factor for success.
 
 - Respect is earned, not given. It doesn't come overnight.
 
@@ -34,7 +34,7 @@ Here are my top takeaways from his class:
 
 - "Show up, work hard and be as unselfish as possible".
 
-- It is important to maintain your physical and mental health, because that allows you to be at your best, and winning requires being present at your best.
+- It is important to maintain your physical and mental health, because that allows you to be at your best, and winning requires being present at your best everyday.
 
 - Let kids be kids.
 
