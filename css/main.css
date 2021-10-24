@@ -111,27 +111,21 @@ a:visited {
 }
 
 @media (max-width: 768px) {
+  .site-intro{
+    margin: 0 20px !important;
+  }
   .site-intro__image{
     display: none;
   }   
 }
 
 .site-intro{
+  // font-family: "Wotfard",Futura,-apple-system,sans-serif;
   padding: 30px;
-  height: 100vh;
-  position: relative;
-  border-top: 20px solid;
-}
-
-.site-intro__image{
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  height: 320px;
+  margin: 0 200px;
 }
 
 .site-intro__desc{
-  /*display: inline;*/
   font-size: 19px;
   margin-bottom: 20px;
 }
@@ -208,6 +202,60 @@ a:visited {
 .footer .rss img {
   border: 0; }
 
+
+/*****************************************************************************/
+/*
+/* Homepage SVG
+/*
+/*****************************************************************************/
+.header-title {
+        --color: #FFFFFF;
+        --solid: #800080;
+
+        width: 481px;
+        height: 277px;
+        max-width: 100%;
+        font-size: 70px;
+      }
+
+       .svg-text {
+         font-family: Inter, sans-serif;
+       }
+
+       .headline {
+         font-size: 1em;
+         font-weight: bold;
+         fill: var(--color);
+         letter-spacing: -.03em;
+       }
+
+       .solid {
+         fill: var(--solid);
+       }
+
+      @supports (color: color(display-p3 1 1 1 / 1)) {
+        .header-title {
+          --solid: color(display-p3 0.9098 0.7647 0 / 1);
+        }
+      }
+
+      @media screen and (prefers-color-scheme: dark) {
+        .header-title {
+          --color: #f5df1e;
+          --solid: #20201e;
+        }
+
+        .svg-text {
+          opacity: 1;
+        }
+
+        @supports (color: color(display-p3 1 1 1 / 1)) {
+          .header-title {
+            --color: color(display-p3 0.955 0.802 0);
+          }
+        }
+      }
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -216,6 +264,7 @@ a:visited {
 /* standard */
 .post{
   text-align: left;
+  margin: 0 100px;
 }
 
 .post pre {
