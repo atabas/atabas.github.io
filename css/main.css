@@ -40,6 +40,7 @@ a:visited {
   margin-bottom: 0 !important;
 }
 
+
 /*****************************************************************************/
 /*
 /* Home
@@ -77,6 +78,14 @@ a:visited {
 
 .navbar{
   padding: 10px;
+}
+
+.navbar-fixed-top{
+  background-color: #fff;
+}
+
+#myNav{
+  margin: 0 55px 0 40px; 
 }
 
 .contact-form{
@@ -154,7 +163,11 @@ a:visited {
 
 .site {
   font-size: 115%;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  background-color: rgb(237, 238, 243);
+  margin-top: 70px !important;
+
+}
 
 .header a {
   font-weight: bold;
