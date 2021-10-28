@@ -40,6 +40,10 @@ a:visited {
   margin-bottom: 0 !important;
 }
 
+.bg-black{
+  background-color: black;
+}
+
 
 /*****************************************************************************/
 /*
@@ -72,21 +76,17 @@ a:visited {
 /* Site
 /*
 /*****************************************************************************/
-.navbar-toggle .icon-bar{
+/*.navbar-toggle .icon-bar{
   background-color: #000;
 }
 
 .navbar{
   padding: 10px;
-}
+}*/
 
-.navbar-fixed-top{
-  background-color: #fff;
-}
-
-#myNav{
+/*#myNav{
   margin: 0 55px 0 40px; 
-}
+}*/
 
 .contact-form{
   margin-bottom: 20px;
@@ -97,26 +97,16 @@ a:visited {
   margin: 0 auto;
 }
 
-.navbar .navbar-nav > li {
-  display: inline-block;
+.nav-item {
+  font-size: 22px;
 }
 
-.nav-link{
-  margin: 0;
-  padding: 0 !important;
+.nav-item__headline{
+  font: 30 30px/1.3 'Pacifico', Helvetica, sans-serif;
 }
 
-.nav-icon{
-  color: #000;
-  margin: 10px;
-}
-
-.nav-desc{
-  font-size: 18px;
-}
-
-.text-links li, .icon-links li{
-  display: inline-block;
+.nav-link {
+  color: #fff !important;
 }
 
 @media (max-width: 768px) {
@@ -166,8 +156,6 @@ a:visited {
   min-height: 100%;
   line-height: 1.5em;
   background-color: rgb(237, 238, 243);
-  margin-top: 70px !important;
-
 }
 
 .header a {
