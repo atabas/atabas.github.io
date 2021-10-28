@@ -64,8 +64,7 @@ a:visited {
 
 .post-intro{
   padding: 30px;
-/*  background:#dde8f1;
-*/  margin-bottom: 20px;
+  margin-bottom: 20px;
   border-top: 20px solid;
   border-bottom: 20px solid;
 }
@@ -76,17 +75,6 @@ a:visited {
 /* Site
 /*
 /*****************************************************************************/
-/*.navbar-toggle .icon-bar{
-  background-color: #000;
-}
-
-.navbar{
-  padding: 10px;
-}*/
-
-/*#myNav{
-  margin: 0 55px 0 40px; 
-}*/
 
 .contact-form{
   margin-bottom: 20px;
@@ -110,9 +98,6 @@ a:visited {
 }
 
 @media (max-width: 768px) {
-  .site-intro{
-    margin: 0 20px !important;
-  }
   .site-intro__image{
     display: none;
   }   
@@ -121,7 +106,6 @@ a:visited {
 .site-intro{
   // font-family: "Wotfard",Futura,-apple-system,sans-serif;
   padding: 30px;
-  margin: 0 200px;
 }
 
 .site-intro__desc{
@@ -153,9 +137,9 @@ a:visited {
 
 .site {
   font-size: 115%;
-  min-height: 100%;
   line-height: 1.5em;
-  background-color: rgb(237, 238, 243);
+  margin: 30px auto;
+  max-width: 47.5rem;
 }
 
 .header a {
@@ -555,3 +539,19 @@ table, th, td {
   border: 1px solid black;
   padding: 10px !important;
 }
+
+.no-underline a {
+  text-decoration: none;
+  color: #600606;
+}
+
+.card-icon {
+    display: inline-block;
+    padding: 0px 10px;
+    color: black;
+}
+
+.card-icon:visited{
+  color: black;
+}
+
