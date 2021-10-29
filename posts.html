@@ -1,30 +1,27 @@
 ---
 layout: default
 ---
-<svg viewBox="0 0 481 220" version="1.1" class="header-title" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="">
-    <title>Anika Tabassum</title>
-    <g id="header-title" stroke="none" stroke-width="1" fill="none">
-        <polygon class="solid" points="0 0 481 50 481 250 0 200"></polygon>
-        <text class="svg-text headline">
-            <tspan x="110" y="150">Writing</tspan>
-        </text>
-    </g>
-</svg>
 
+<div class="post-intro">
+<h1>Writing</h1>
+</div>
 
 {% assign unsorted_cats = site.categories %}
 <div class="container">
   <ul class="posts">
-  <h2>Published in newspapers/magazines</h2>
-    <li><span>06 Nov 2020</span><a href="https://www.waterloochronicle.ca/opinion-story/10236282-appreciating-the-underrated-beauty-of-waterloo/"> &raquo; Appreciating the underrated beauty of Waterloo</a></li>
-    <li><span>01 Sept 2021</span><a href="https://www.thedailystar.net/views/opinion/news/captain-nawshad-life-grit-determination-and-sacrifice-2165396"> &raquo; Captain Nawshad: A life of grit, determination and sacrifice</a></li>
+  <h3>Published in newspapers/magazines</h3>
+    <li><a href="https://www.waterloochronicle.ca/opinion-story/10236282-appreciating-the-underrated-beauty-of-waterloo/">Appreciating the underrated beauty of Waterloo</a> <span> 06 Nov 2020</span></li>
+    <li><a href="https://www.thedailystar.net/views/opinion/news/captain-nawshad-life-grit-determination-and-sacrifice-2165396">Captain Nawshad: A life of grit, determination and sacrifice</a><span> 01 Sept 2021</span></li>
+  </ul>
   {% for category in unsorted_cats %}
   {% assign sorted_posts = category[1] | reversed %}
-  <h2 id="{{category[0] | uri_escape | downcase }}">{{ category[0] | capitalize }}</H2>
+  <ul class="posts">
+
+  <h3 id="{{category[0] | uri_escape | downcase }}">{{ category[0] | capitalize }}</h3>
     {% for post in sorted_posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a><span> {{ post.date | date_to_string }}</span></li>
   {% endfor %}
+</ul>
   {% endfor %}
-  </ul>
 </div>
 </div>

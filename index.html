@@ -12,7 +12,7 @@ title: Anika Tabassum
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title no-underline">Hello ! <a href="/about">I am Anika.</a> </h3>
+        <h1 class="card-title no-underline">Hello ! <a href="/about">I am Anika.</a> </h1>
         <p class="card-text">I am a software engineer, data/machine learning practitioner, and writer.</p>
         <a href="https://github.com/atabas" class="card-icon">
           <i class="fa fa-github fa-2x nav-icon" aria-hidden="true"></i>
@@ -24,10 +24,12 @@ title: Anika Tabassum
     </div>
   </div>
 </div>
-  <!-- <h2>Writing</h2>
+  <h2>Recent Writing</h2>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in site.posts limit:3 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a><span> {{ post.date | date_to_string }}</span></li>
     {% endfor %}
-  </ul> -->
+
+  </ul>
+  <a href="/posts">More Posts >></a>
   </div>
