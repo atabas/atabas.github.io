@@ -15,10 +15,6 @@ known to save lives. They can help you become a smarter, more interesting person
 
 ~ Debbie Millman
 
-> As long as I can read, I can unlock the secrets of the world. It's my best superpower.
-
-~ Ruth Ann 
-
 > Books let us be like trees, don't you think? Seeing beyond the span of our own lives, reaching high into the sunlight and deep into the dark fertile soil of imagination. They let us play in their branches or dream in a hammock. If we're lucky our minds will widen with every volume, like growth rings of wisdom. And books attract more books, more ideas- like bright singing birds flocking to a tree of knowledge .
 
 ~ Robin wall Kimmerer 
