@@ -8,7 +8,7 @@ published: true
 
 <i>"A Velocity of Being - Letters to a Young Reader"</i>. Even though this book positions itself to a younger audience through its title, it's quite readable for a person of any age. This book captures everything I think and love about reading, and perhaps more, with different people weighing in on what reading means to them personally.
 
-<p>Once upon a time, I loved collecting quotes. Here are a few I really enjoyed from this book:</p>
+<p>Here are a few quotes I really enjoyed from this book:</p>
 
 > You see, here's the thing: even at their worst, books won't abandon you. If they make you cry it's only because they are that good. You can depend on books. They will always be there for you. Their patience is infinite and they have been
 known to save lives. They can help you become a smarter, more interesting person
@@ -19,9 +19,6 @@ known to save lives. They can help you become a smarter, more interesting person
 
 ~ Robin wall Kimmerer 
 
-> To write is delight, to read is to plant the seed of endless excitment. I promise you.
-
-~ Mary Oliver
 
 > 1400 years ago in the deserts of Arabia, a mediative prophet named Mohammed had a vision of the Angel Gabriel who came to him with a message: "Read.... This was the first word of the Quran. 
 
@@ -34,10 +31,6 @@ known to save lives. They can help you become a smarter, more interesting person
 > I encourage you to not let the questions that move you go unanswered. Cherish your curiosity. It is your questions that will shape you.
 
 ~ David Delgado
-
-> That can't happen on a screen. Other wonderful things can, but not that. And moments like those - of time stopping, eyes searching and minds dreaming - are rare and important in our fast-paced lives. We must protect the possibility of them.
-
-~ Regina Spektor
 
 > If you love to read, or learn to love reading, you will have an amazing life. Period. Life will always have hardships, pressure, and incredibly annoying people, but books will make it all worthwhile. In books, you will find your North Star, and you will find you, which is why you are here.
 
