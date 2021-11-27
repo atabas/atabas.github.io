@@ -86,27 +86,6 @@ a:visited {
   color: #fff !important;
 }
 
-@media (max-width: 768px) {
-  .site-intro__image{
-    display: none;
-  }   
-}
-
-.site-intro{
-  padding: 30px;
-}
-
-.site-intro__desc{
-  font-size: 19px;
-  margin-bottom: 20px;
-}
-
-.site-intro__header{
-  font-size: 50px;
-  margin: 30px 0;
-
-}
-
 .nav-desc:visited, .nav-desc:hover{
   color: #000;
 }
