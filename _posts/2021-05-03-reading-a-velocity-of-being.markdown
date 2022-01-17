@@ -3,7 +3,7 @@ layout: post
 title:  "Reading 'A Velocity of Being'"
 date:   2021-05-03 17:00:31
 categories: personal
-published: true
+published: false
 ---
 
 <i>"A Velocity of Being - Letters to a Young Reader"</i>. Even though this book positions itself to a younger audience through its title, it's quite readable for a person of any age. This book captures everything I think and love about reading, and perhaps more, with different people weighing in on what reading means to them personally.
