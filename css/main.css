@@ -94,7 +94,37 @@ a:visited {
   font-size: 115%;
   line-height: 1.5em;
   margin: 30px auto;
-  max-width: 47.5rem;
+  // max-width: 47.5rem;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+.avatar {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+ul.social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+#picture-card {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.picture-card__description{
+  margin-top: 10px;
 }
 
 .header a {
