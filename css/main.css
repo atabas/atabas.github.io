@@ -107,6 +107,10 @@ a:visited {
     object-fit: cover;
 }
 
+.bordered {
+  border-bottom: 5px solid #eee;
+}
+
 ul.social-icons {
     display: inline-flex;
     flex-direction: row;
